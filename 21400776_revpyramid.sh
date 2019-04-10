@@ -2,7 +2,7 @@
 echo "enter value for n"
 
 read n
-if(( "$n" > "1" )) && (( "$n" < "12" )); then
+if(( "$n" >= "1" )) && (( "$n" <= "12" )); then
 
 for (( i = n; i > 0; i-- ))
 do
